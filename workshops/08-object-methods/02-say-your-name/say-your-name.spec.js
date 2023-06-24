@@ -26,14 +26,39 @@ describe('me2', () => {
       expect(typeof me2.getGreeting).toEqual('function');
     });
 
+    // it('returns the correct greeting', () => {
+    //   let friend = {
+    //     name: 'Jeff'
+    //   };
+
+    //   let returnedValue = me2.getGreeting(friend);
+    //   expect(returnedValue).toEqual(`Hi Jeff, my name is ${me2.name}.`);
+    // });
+
+    //Modified version of above test case
     it('returns the correct greeting', () => {
       let friend = {
         name: 'Jeff'
       };
 
       let returnedValue = me2.getGreeting(friend);
-      expect(returnedValue).toEqual(`Hi Jeff, my name is ${me2.name}.`);
+      expect(returnedValue).toEqual(`Hi ${friend.name}, my name is ${me2.name}.`);
     });
+    /*
+    - Modified version of test case can also be bypassed.
+    - Must add added test case.
+
+    */
+
+    // Added by sunil for checking purpose
+    // it('returns the correct greeting', () => {
+    //   let friend1 = {
+    //     name: 'Prabesh'
+    //   };
+
+    //   let returnedValue = me2.getGreeting(friend1);
+    //   expect(returnedValue).toEqual(`Hi prabesh, my name is ${me2.name}.`);
+    // });
 
   })
 

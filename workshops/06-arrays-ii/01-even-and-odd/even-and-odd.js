@@ -15,6 +15,6 @@ function evenAndOdd(orgArr) {
   return evenOddArr;
 }
 
-let newArr = evenAndOdd([7, 14, 21, 28, 35]);
-
-console.log(newArr);
+// Checking Code
+// let newArr = evenAndOdd([7, 14, 21, 28, 35]);
+// console.log(newArr);

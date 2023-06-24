@@ -38,3 +38,15 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+function petSounds(animal, city){
+  let sound ="";
+  animalNoises.forEach(element => {
+    if(animal in element){
+      sound = element[animal][city];
+    }
+  });
+  animal = animal.charAt(0).toUpperCase()+animal.slice(1);
+  return animal + "s in "+ city + " say " + sound;
+}
+
+// petSounds('chicken','Uruguay');
