@@ -48,7 +48,7 @@ function testFour(msg) {
     msg = msg;
     console.log(msg);
 
-    function doubleInner(msg) {
+    function doubleInner(ms) {
       testFourMessage = msg;
       return testFourMessage;
     }
