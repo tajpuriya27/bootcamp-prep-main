@@ -10,8 +10,6 @@
 // console.log(greeter);
 // greeter();
 
-
-
 // debugger;
 // function greetMe() {
 //  console.log('Hi!');
@@ -24,7 +22,6 @@
 // console.log(greeter);
 // greeter();
 
-
 // debugger;
 // function getGreeter() {
 //     // we can declare a new inner function and then return it
@@ -36,7 +33,6 @@
 //    let greeter = getGreeter();
 //    greeter()
 
-
 // debugger;
 // function getGreeter() {
 //     // we can return anonymous function, too
@@ -47,8 +43,16 @@
 //    let greeter = getGreeter();
 //    greeter()
 
-
 /****************************************/
-let str = "to make first letter capital";
-str = str.charAt(0).toUpperCase() + str.slice(1);
-console.log(str)
+// let str = "to make first letter capital";
+// str = str.charAt(0).toUpperCase() + str.slice(1);
+// console.log(str)
+
+console.log("hello");
+console.log(" hello ");
+
+arr = [1, 2, 3, 4];
+for (i = 0; i < arr.length; i++) {
+  arr.pop();
+}
+console.log(arr);

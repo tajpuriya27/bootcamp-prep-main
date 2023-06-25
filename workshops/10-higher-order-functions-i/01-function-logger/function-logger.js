@@ -1,4 +1,4 @@
 // YOUR CODE BELOW
-function functionLogger(givenFun, num){
-    console.log("Function ")
+function functionLogger(givenFun, num) {
+  return givenFun(num);
 }
